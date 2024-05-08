@@ -1,0 +1,25 @@
+.header-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  min-height: 400px;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 400px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
