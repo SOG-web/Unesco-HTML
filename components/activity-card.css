@@ -1,0 +1,140 @@
+.activity-card-container {
+  gap: 55px;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: rgba(131, 131, 131, 0.3);
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: center;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.activity-card-image {
+  width: 588px;
+  height: 532px;
+  object-fit: cover;
+}
+.activity-card-container1 {
+  width: 513px;
+  height: 500px;
+  display: flex;
+  max-height: 100%;
+  min-height: 100%;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.activity-card-text {
+  fill: #CC9282;
+  color: #CC9282;
+  width: auto;
+  font-size: 22px;
+  font-style: normal;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+.activity-card-text1 {
+  font-size: 42px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 48px;
+}
+.activity-card-image1 {
+  width: 200px;
+  display: none;
+  object-fit: cover;
+}
+.activity-card-text2 {
+  fill: #595B61;
+  color: #595B61;
+  font-size: 24px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 40px;
+}
+
+@media(max-width: 1200px) {
+  .activity-card-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .activity-card-container1 {
+    width: 100%;
+  }
+}
+@media(max-width: 991px) {
+  .activity-card-container {
+    height: auto;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+  .activity-card-image {
+    display: none;
+  }
+  .activity-card-container1 {
+    gap: var(--dl-space-space-twounits);
+    height: auto;
+    align-items: center;
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+    justify-content: center;
+  }
+  .activity-card-text {
+    font-size: 18px;
+  }
+  .activity-card-text1 {
+    font-size: 32px;
+    margin-top: -20px;
+  }
+  .activity-card-image1 {
+    width: 80%;
+    height: 412px;
+    display: flex;
+  }
+  .activity-card-text2 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+  }
+}
+@media(max-width: 479px) {
+  .activity-card-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .activity-card-container1 {
+    padding-left: var(--dl-space-space-halfunit);
+  }
+  .activity-card-text {
+    font-size: 12px;
+    line-height: 125%;
+  }
+  .activity-card-text1 {
+    font-size: 26px;
+    text-align: center;
+    line-height: 125%;
+  }
+  .activity-card-image1 {
+    width: 100%;
+    height: 231px;
+  }
+  .activity-card-text2 {
+    font-size: 12px;
+    line-height: 178%;
+  }
+}

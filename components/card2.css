@@ -51,6 +51,9 @@
   font-weight: 500;
   line-height: 40px;
 }
+
+
+
 @media(max-width: 1200px) {
   .card2-container {
     width: 350px;
@@ -94,6 +97,9 @@
     font-weight: 500;
     line-height: 36px;
   }
+  .card2-root-class-name1 {
+    margin-top: var(--dl-space-space-threeunits);
+  }
 }
 @media(max-width: 991px) {
   .card2-container {
@@ -129,5 +135,8 @@
 @media(max-width: 479px) {
   .card2-container {
     background-color: var(--dl-color-base-white);
+  }
+  .card2-root-class-name1 {
+    margin-top: 0px;
   }
 }

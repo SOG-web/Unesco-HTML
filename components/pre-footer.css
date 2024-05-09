@@ -92,6 +92,11 @@
   height: 107px;
   object-fit: cover;
 }
+
+
+
+
+
 @media(max-width: 1200px) {
   .pre-footer-container {
     padding-top: 107px;
