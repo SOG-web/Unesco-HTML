@@ -1,0 +1,78 @@
+.text-input-container {
+  gap: 4px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 603px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.text-input-text {
+  fill: #595B61;
+  color: #595B61;
+  font-size: 22px;
+  font-style: normal;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.text-input-textinput {
+  fill: #374957;
+  color: #374957;
+  width: 100%;
+  height: 69px;
+  font-size: 18px;
+  max-width: 603px;
+  text-align: left;
+  font-family: "Poppins";
+  border-color: #CCCCCC;
+  border-radius: 9px;
+}
+.text-input-root-class-name {
+  max-width: 47%;
+}
+.text-input-root-class-name1 {
+  max-width: 47%;
+}
+.text-input-root-class-name2 {
+  max-width: 47%;
+}
+.text-input-root-class-name3 {
+  max-width: 47%;
+}
+.text-input-root-class-name4 {
+  max-width: 47%;
+}
+.text-input-root-class-name5 {
+  max-width: 47%;
+}
+.text-input-root-class-name6 {
+  max-width: 47%;
+}
+@media(max-width: 767px) {
+  .text-input-textinput {
+    max-width: 100%;
+  }
+  .text-input-root-class-name {
+    max-width: 100%;
+  }
+  .text-input-root-class-name1 {
+    max-width: 100%;
+  }
+  .text-input-root-class-name2 {
+    max-width: 100%;
+  }
+  .text-input-root-class-name3 {
+    max-width: 100%;
+  }
+  .text-input-root-class-name4 {
+    max-width: 100%;
+  }
+  .text-input-root-class-name5 {
+    max-width: 100%;
+  }
+  .text-input-root-class-name6 {
+    max-width: 100%;
+  }
+}

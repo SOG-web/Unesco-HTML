@@ -99,12 +99,16 @@
   }
   .card1-root-class-name {
     min-width: auto;
+    margin-bottom: var(--dl-space-space-threeunits);
   }
   .card1-root-class-name1 {
     min-width: auto;
+    margin-top: 0px;
+    margin-bottom: var(--dl-space-space-threeunits);
   }
   .card1-root-class-name2 {
     min-width: auto;
+    margin-bottom: var(--dl-space-space-threeunits);
   }
 }
 @media(max-width: 991px) {
@@ -144,8 +148,14 @@
     font-family: Poppins;
     line-height: 178.3%;
   }
+  .card1-root-class-name {
+    margin-bottom: 0px;
+  }
   .card1-root-class-name1 {
     align-self: center;
     margin-top: 0px;
+  }
+  .card1-root-class-name2 {
+    margin-bottom: 0px;
   }
 }

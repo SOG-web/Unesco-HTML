@@ -118,9 +118,17 @@
   .leader-left-container4 {
     gap: 0;
     width: 100%;
+    align-items: center;
     padding-left: 0px;
     padding-right: 0px;
     justify-content: space-between;
+  }
+  .leader-left-image {
+    width: 50%;
+    max-width: 500px;
+  }
+  .leader-left-container5 {
+    width: 50%;
   }
 }
 @media(max-width: 991px) {
@@ -160,6 +168,7 @@
   }
   .leader-left-image {
     width: 100%;
+    max-width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
   }

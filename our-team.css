@@ -337,6 +337,7 @@
   fill: var(--dl-color-base-white);
   color: var(--dl-color-base-white);
   font-size: 72px;
+  max-width: 1024px;
   font-style: normal;
   text-align: center;
   font-family: "Poppins";
@@ -352,6 +353,8 @@
   font-weight: 500;
   line-height: 40px;
 }
+
+
 
 
 
@@ -455,6 +458,12 @@
   margin-right: 0px;
   margin-bottom: 79px;
 }
+
+
+
+
+
+
 
 
 @media(max-width: 991px) {
@@ -625,7 +634,7 @@
   height: auto;
   display: flex;
   position: relative;
-  align-items: flex-end;
+  align-items: center;
   flex-direction: row;
   justify-content: center;
 }
@@ -670,8 +679,8 @@
   letter-spacing: -2%;
 }
 .leader-right-image1 {
-  width: 500px;
   height: 672px;
+  max-width: 500px;
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius4);
   border-top-left-radius: 55px;
@@ -692,9 +701,20 @@
   .leader-right-container4 {
     gap: 0;
     width: 100%;
+    align-items: center;
     padding-left: 0px;
     padding-right: 0px;
     justify-content: space-between;
+  }
+  .leader-right-container5 {
+    width: 50%;
+  }
+  .leader-right-text2 {
+    width: 100%;
+  }
+  .leader-right-image1 {
+    width: 50%;
+    max-width: 500px;
   }
 }
 @media(max-width: 991px) {
@@ -905,9 +925,17 @@
   .leader-left-container4 {
     gap: 0;
     width: 100%;
+    align-items: center;
     padding-left: 0px;
     padding-right: 0px;
     justify-content: space-between;
+  }
+  .leader-left-image {
+    width: 50%;
+    max-width: 500px;
+  }
+  .leader-left-container5 {
+    width: 50%;
   }
 }
 @media(max-width: 991px) {
@@ -947,6 +975,7 @@
   }
   .leader-left-image {
     width: 100%;
+    max-width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
   }
@@ -1505,6 +1534,8 @@
 
 
 
+
+
 @media(max-width: 1200px) {
   .footer-container04 {
     padding-left: var(--dl-space-space-fourunits);
@@ -1574,7 +1605,7 @@
 .our-team-container {
   width: 100%;
   display: flex;
-  overflow: auto;
+  overflow: hidden;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
@@ -1725,6 +1756,10 @@
     padding-left: 0px;
     padding-right: 0px;
     justify-content: space-between;
+  }
+  .our-team-container03 {
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
   }
   .our-team-container04 {
     padding-left: var(--dl-space-space-oneandhalfunits);

@@ -1,0 +1,38 @@
+.select-input-container {
+  gap: 4px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 603px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.select-input-text {
+  fill: #595B61;
+  color: #595B61;
+  font-size: 22px;
+  font-style: normal;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.select-input-select {
+  width: 100%;
+  height: 59px;
+  max-width: 603px;
+  border-color: #CCCCCC;
+  border-width: 1px;
+  border-radius: 9px;
+}
+.select-input-root-class-name {
+  max-width: 47%;
+}
+@media(max-width: 767px) {
+  .select-input-select {
+    max-width: 100%;
+  }
+  .select-input-root-class-name {
+    max-width: 100%;
+  }
+}

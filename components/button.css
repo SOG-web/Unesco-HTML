@@ -27,6 +27,17 @@
 
 
 
+.button-root-class-name6 {
+  margin-top: var(--dl-space-space-threeunits);
+}
+.button-root-class-name7 {
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+}
+
+.button-root-class-name9 {
+  align-self: center;
+}
 @media(max-width: 991px) {
   .button-container {
     padding-left: 50px;
